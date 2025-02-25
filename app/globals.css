@@ -144,7 +144,8 @@ ul {
 }
 
 .news-article img {
-  width: 7rem;
+  width: 15rem;
+  height: 15rem;
   margin-bottom: 1rem;
   border-radius: 4px;
 }
