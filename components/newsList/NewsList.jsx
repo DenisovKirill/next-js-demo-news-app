@@ -8,7 +8,7 @@ const NewsList = ({ news }) => {
         const { id, slug, title, image } = newsItem;
         return (
           <li key={id}>
-            <Link href={`news/${slug}`}>
+            <Link href={`/news/${slug}`}>
               <div>
                 <Image src={`/images/news/${image}`} width={500} height={500} alt={title} />
                 <span>{title}</span>
